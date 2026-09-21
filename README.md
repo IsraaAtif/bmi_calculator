@@ -23,3 +23,9 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Features
+- Responsive UI:Adaptive layout built using LayoutBuilder for seamless cross-platform support.
+- Custom Widgets: Modular code structure separating reusable components like GenderCard, HeightCard, CounterCard, and ResultCard.
+- BMI Calculation: Dynamic BMI calculation with personalized status interpretations (Underweight, Normal, Overweight).
+- Clean Architecture: Well-organized project folder structure (screens/, widgets/).
