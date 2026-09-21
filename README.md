@@ -4,7 +4,9 @@
 
 | Home Screen | Result Screen |
 | :---: | :---: |
-| <img src="https://github.com/user-attachments/assets/112d5a6c-0289-4592-a1fd-f1601e51b1fb" width="300"> | <img src="https://github.com/user-attachments/assets/381a7822-1552-4cac-85e9-3a25d2c207a1" width="300"> |
+| <img src="<img width="385" height="842" alt="Screenshot 2026-09-21 213519" src="https://github.com/user-attachments/assets/7a29e87a-6018-4ae8-82bd-5351854a29dc" />
+" width="300"> | <img src="<img width="377" height="835" alt="Screenshot 2026-09-21 214537" src="https://github.com/user-attachments/assets/4ce0cf8a-bcf9-4cf9-8162-318e99d9962e" />
+" width="300"> |
 
 A new Flutter project.
 
