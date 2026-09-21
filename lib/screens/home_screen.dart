@@ -52,7 +52,6 @@ class _HomeScreenState extends State<HomeScreen> {
                 child: Column(
                   crossAxisAlignment:CrossAxisAlignment.stretch,
                   children: [
-                    // 1. Gender Selection
                     Expanded(
                       child: Row(
                         children: [
@@ -81,8 +80,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 15),
-
-                    // 2. Height Card
                     Expanded(
                       child: HeightCard(
                         height: height,
@@ -92,8 +89,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 15),
-
-                    // 3. Weight & Age Cards
                     Expanded(
                       child: Row(
                         children: [
@@ -128,8 +123,6 @@ class _HomeScreenState extends State<HomeScreen> {
                       ),
                     ),
                     const SizedBox(height: 15),
-
-                    // 4. Calculate Button
                     SizedBox(
                       height: 55,
                       child: ElevatedButton(
@@ -140,7 +133,6 @@ class _HomeScreenState extends State<HomeScreen> {
                           ),
                         ),
                         onPressed: () {
-                          // حساب معادلة الـ BMI
                           double heightInMeters = height / 100;
                           double bmi = weight / (heightInMeters * heightInMeters);
 
@@ -160,8 +152,6 @@ class _HomeScreenState extends State<HomeScreen> {
                             interpretation =
                                 'You have a lower than normal body weight. You can eat a bit more.';
                           }
-
-                          // 2. الانتقال لشاشة ResultScreen
                           Navigator.push(
                             context,
                             MaterialPageRoute(

@@ -50,7 +50,6 @@ class ResultScreen extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    // العنوان "Your Result"
                     const Padding(
                       padding: EdgeInsets.symmetric(vertical: 10.0),
                       child: Text(
